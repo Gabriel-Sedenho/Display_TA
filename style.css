@@ -1,0 +1,26 @@
+.body-container{
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.body-container p{
+    background-color: orange;
+    color: #fff;
+    display: inline-block;
+}
+
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+.header-container a{
+    background-color: black;
+    text-decoration: none;
+    font-size: x-large;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+}
