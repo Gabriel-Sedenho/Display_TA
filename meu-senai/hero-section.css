@@ -18,8 +18,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
     width: 100%;
     height: 33%;
     background-color: darkgray;
@@ -27,22 +25,32 @@ body {
 
 .banner-header {
     background-color: cyan;
-    width: 90%;
-    height: 90%;
+    width: 1120px;
+    justify-content: space-between;
+    height: 66%;
 }
 
 .content-hero {
     background-color: red;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 25vh;
+    align-items: center;
+    justify-content: space-around;
+    width: 1120px;
+    height: 550px;
+    margin: 0 auto;
 }
 
-div{
-    background-color: blueviolet;
-    width: 25%;
-    height: 60vh;
-    margin-right: 25px;
-    border-radius: 15%;
+.box {
+    border: 2px solid;
+    width: 365px;
+    height: 482px;
+    margin: 25px;
+    border-radius: 25px;
+}
+
+.content-hero-header{
+    background-color: darkblue;
+    border-radius: 25px 25px 0 0;
+    padding: 5px;
+    color: white;
 }
