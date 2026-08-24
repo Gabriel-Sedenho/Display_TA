@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
-h1{
-    color: blueviolet;
+body{
+    height: 75vh;
+    width: 75vw;
+    display: flex;
+    background-color: aliceblue;
+    align-content: center;
+    justify-items: center;
+    height: 1180;
+    width: 650;
+    margin: 100px;
+}
+
+
+.conteudo-principal{
+    display: flex;
+}
+
+img {
+    height: 75vh;
+}
+
+.conteudo-principal__direito{
+
+}
+.conteudo-principal__direito--descricao{
+
+    align-items: center;
+}
+.conteudo-principal__direito--sem-fio{
+
+    align-items: end;
 }
