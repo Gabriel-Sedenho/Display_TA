@@ -1,0 +1,35 @@
+body{
+    height: 75vh;
+    width: 75vw;
+    background-color: aliceblue;
+    height: 1180;
+    width: 650;
+    margin: 100px;
+}
+
+
+.conteudo-principal{
+    display: flex;
+}
+
+img {
+    height: 75vh;
+}
+
+.conteudo-principal__direito{
+    display: flex;
+    align-items: start;
+}
+.conteudo-principal__direito--descricao{
+    display: flex;
+    align-content: center;
+}
+
+.conteudo-principal__direito--carregador{
+    align-content: start;
+}
+
+.conteudo-principal__direito--sem-fio{
+    display: flex;
+    align-items: end;
+}

@@ -40,24 +40,30 @@
 .color-section__bar--rgb-2 {
         border: solid;
         width: 15%;
-
+        background-color: blue;
 }
 
 .color-section__bar--rgb-3 {
         border: solid;
         width: 15%;
-
+        background-color: green;
 }
 
 .color-section__bar--rgb-4 {
-            border: solid;
+        border: solid;
         width: 15%;
 
 }
 
-.color-section__bar--rgb-5 {}
+.color-section__bar--rgb-5 {
+        border: solid;
+        width: 15%;
+}
 
-.color-section__bar--rgb-6 {}
+.color-section__bar--rgb-6 {
+        border: solid;
+        width: 15%;
+}
 
 .color-section__bar--cmyk-1 {}
 
