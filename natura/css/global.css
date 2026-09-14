@@ -7,4 +7,11 @@
     
 }
 
-.
+.brands__title{
+    margin-bottom: 30px;
+}
+
+.brands__title h1{
+    font-size: 28px;
+    font-weight: 700;
+}
