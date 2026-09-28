@@ -102,3 +102,9 @@
         
         background-color: var(--color-pepsi-2);
 }
+
+.color-section__bar--pepsi-3 {
+
+        background-color: var(--color-pepsi-3);
+
+}
