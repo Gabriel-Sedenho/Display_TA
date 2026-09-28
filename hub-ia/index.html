@@ -7,16 +7,69 @@
     <title>Teste de @media</title>
     <!-- Estilos da pagina -->
     <style>
-        @media screen and (min-width: 480px) {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+
+        .box {
+            width: 100%;
+            max-width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+
+        /* Base style for mobile devices */
+        body {
+            padding: 20px;
+            background-color: olive;
+            color: white;
+        }
+
+        /* For devices with a minimum width of 768px (Medium) */
+        @media(min-width: 855px) {
             body {
-                background-color: lightgreen;
+                background-color: blue;
+                color: white;
+            }
+        }
+
+        /* For devices with a minimum width of 992px (Large) */
+        @media(min-width: 1270px) {
+            body {
+                background-color: tan;
+                color: black;
             }
         }
     </style>
 </head>
 
 <body>
+    <h1>Eu odeio HTML</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 
+    <div class="container-position">
+        <div class="container-position__filho01 filho-tamanho"></div>
+    </div>
 </body>
 
 </html>
