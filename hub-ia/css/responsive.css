@@ -1,0 +1,17 @@
+@import url(./variables.css);
+@import url(./reset.css);
+@import url(./style.css);
+
+
+
+/* 1. Smartphones Pequenos: até 500px */
+@media screen and (max-width: 500px) {}
+
+/* 2. Smartphones Médios: entre 501px e 767px */
+@media screen and (min-width: 501px) and (max-width: 767px) {}
+
+/* 3. Tablets: entre 768px e 1023px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+/* 4. Desktops: a partir de 1024px */
+@media screen and (min-width: 1024px) {}
